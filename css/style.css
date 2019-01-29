@@ -1,0 +1,38 @@
+.coming{
+	max-height: 100vh;
+
+	position: relative;
+}
+#particles-js{
+		background: url('../images/bg-img1.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	display: block;
+	overflow: hidden;
+}
+.banner-img{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 90%;
+}
+.intro{
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	color: #ffffff;
+	text-align: center;
+	transform: translateX(-50%);
+
+}
+.intro h1{
+	font-size: 100px;
+	font-family: 'Courgette', cursive;
+}
+.intro h2{
+	font-size: 50px;
+	opacity: .5;
+	font-family: 'Courgette', cursive;
+	text-transform: uppercase;
+}
